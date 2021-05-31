@@ -1,8 +1,8 @@
 !! URxvt Appearance
-*.font: xft:DejaVuSansMono:style=Regular:size=11
-*.boldFont: xft:DejaVuSansMono:style=Bold:size=11
-*.italicFont: xft:DejaVuSansMono:style=Italic:size=11
-*.boldItalicFont: xft:DejaVuSansMono:style=Bold Italic:size=11
+*.font: xft:DejaVu Sans Mono:style=Regular:size=12
+*.boldFont: xft:DejaVu Sans Mono:style=Bold:size=12
+*.italicFont: xft:DejaVu Sans Mono:style=Italic:size=12
+*.boldItalicFont: xft:DejaVu Sans Mono:style=Bold Italic:size=12
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -15,6 +15,11 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 32
 URxvt.iso14755: false
+!URxvt.transparent:   true
+!URxvt.shading:       5
+
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
 
 
 !! Colorscheme
