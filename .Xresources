@@ -18,9 +18,6 @@ URxvt.iso14755: false
 !URxvt.transparent:   true
 !URxvt.shading:       5
 
-Xft.hinting:    true
-Xft.hintstyle:  hintfull
-
 
 !! Colorscheme
 
@@ -62,7 +59,7 @@ Xft.hintstyle:  hintfull
 *.color15: #fdf6e3
 
 !! Copy Paste & Other Extensions
-URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select,font-size,
 URxvt.copyCommand: xclip -i -selection clipboard
 URxvt.pasteCommand: xclip -o -selection clipboard
 URxvt.keysym.M-c: perl:clipboard:copy
@@ -74,3 +71,13 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+
+!URxvt.keysym.C-1:     font-size:increase
+!URxvt.keysym.C-2:   font-size:decrease
+
+URxvt.font-size.step: 1
+
+URxvt.keysym.Control-Up:   \033[1;5A
+URxvt.keysym.Control-Down:    \033[1;5B
+URxvt.keysym.Control-Left:    \033[1;5D
+URxvt.keysym.Control-Right:    \033[1;5C
