@@ -45,3 +45,4 @@ alias vibash='nvim $HOME/.bashrc'
 alias sbash='source $HOME/.bashrc'
 alias bgkey="setxkbmap -option 'grp:ctrl_shift_toggle' -layout us,bg -variant ,phonetic"
 alias i3require="nvim $HOME/.config/i3/requirements.txt"
+stty werase \^H
